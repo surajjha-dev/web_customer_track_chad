@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Web-Customer-Track:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Web-Customer-Track</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Web-Customer-Track.war">
+      <element id="artifact" artifact-name="Web-Customer-Track:war exploded" />
+    </root>
+  </artifact>
+</component>
